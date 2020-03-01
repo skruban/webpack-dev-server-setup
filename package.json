@@ -1,0 +1,24 @@
+{
+  "name": "webpack-dev-server-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "start:dev": "webpack-dev-server ---mode=development --port=9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skruban/webpack-dev-server-setup.git"
+  },
+  "author": "skruban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skruban/webpack-dev-server-setup/issues"
+  },
+  "homepage": "https://github.com/skruban/webpack-dev-server-setup#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

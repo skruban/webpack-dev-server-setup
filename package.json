@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.html",
   "scripts": {
-    "start:dev": "webpack-dev-server ---mode=development --port=9000"
+    "start": "webpack-dev-server src/index.js -o public/main.js ---mode=development --contentBase=public --port=9000"
   },
   "repository": {
     "type": "git",
